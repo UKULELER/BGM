@@ -1,4 +1,5 @@
 import pandas as pd
+import string
 
 # 导入数据文件
 io = "../../data/DataOfBGMAndVedio.xlsx"
@@ -34,7 +35,6 @@ for i in range(1, len(BGM) + 1):
 
     proportionOfTag = proportionOfTag / proportionOfTag.sum()
     proportionOfTag = proportionOfTag.sort_values(ascending=False)
-
     listOfTagProportion.append(proportionOfTag)
 
 
@@ -44,3 +44,34 @@ for i in range(len(listOfTagProportion)):
     listOfTagRecommend.append(listOfTagProportion[i]*BGM.loc[i+1]["使用次数"])
 
 # 实现查询与推荐
+chooseTag=input()
+
+#实现根据tag检索出BGM列表
+finalChoice=vedio[vedio["tag1"]==chooseTag]
+finalChoice = finalChoice["BGMId"]
+finalChoice=list(set(finalChoice))
+
+bgmList=[]  #用来存放bgm
+commendDic={}  #用来以字典形式存储数据
+dataList=[]    #用来存储数据，便于比较
+
+for i in range(len(finalChoice)):
+    bgmList.append(BGM['音乐'][finalChoice[i]])
+    item=listOfTagRecommend[finalChoice[i]-1]
+    dataList.append(item[chooseTag])
+    commendDic[item[chooseTag]]=BGM['音乐'][finalChoice[i]]
+
+dataList.sort()
+result=[]  #用来按推荐顺序存储bgm
+
+for i in range(len(finalChoice)):
+    result.append(commendDic[dataList[len(finalChoice)-1-i]])
+
+print(bgmList)
+print(dataList)
+print(commendDic)
+print(result)
+
+
+
+
