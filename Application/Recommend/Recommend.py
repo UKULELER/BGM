@@ -37,7 +37,6 @@ for i in range(1, len(BGM) + 1):
     proportionOfTag = proportionOfTag.sort_values(ascending=False)
     listOfTagProportion.append(proportionOfTag)
 
-
 # 用来保存   Tag占比 * 对应BGM的使用量 = 在各BGM下各Tag的推荐度 （便于用来多BGM对比和推荐）
 listOfTagRecommend = []
 for i in range(len(listOfTagProportion)):
@@ -54,7 +53,6 @@ finalChoice=list(set(finalChoice))
 bgmList=[]  #用来存放bgm
 commendDic={}  #用来以字典形式存储数据
 dataList=[]    #用来存储数据，便于比较
-
 for i in range(len(finalChoice)):
     bgmList.append(BGM['音乐'][finalChoice[i]])
     item=listOfTagRecommend[finalChoice[i]-1]
@@ -62,15 +60,22 @@ for i in range(len(finalChoice)):
     commendDic[item[chooseTag]]=BGM['音乐'][finalChoice[i]]
 
 dataList.sort()
-result=[]  #用来按推荐顺序存储bgm
+bgmResult=[]  #用来按推荐顺序存储bgm
+result={}
 
 for i in range(len(finalChoice)):
-    result.append(commendDic[dataList[len(finalChoice)-1-i]])
+    bgmResult.append(commendDic[dataList[len(finalChoice)-1-i]])
+for i in range(len(finalChoice)):
+    result[dataList[i]]=bgmResult[i]
+resultSeries=pd.Series(result)
+
+
 
 print(bgmList)
 print(dataList)
 print(commendDic)
-print(result)
+print(bgmResult)
+print(resultSeries)
 
 
 
