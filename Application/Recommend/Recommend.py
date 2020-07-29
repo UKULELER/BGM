@@ -43,7 +43,7 @@ for i in range(len(listOfTagProportion)):
     listOfTagRecommend.append(listOfTagProportion[i]*BGM.loc[i+1]["使用次数"])
 
 # 实现查询与推荐
-chooseTag=input()
+chooseTag=input("请输入你想标注的tag：")
 
 #实现根据tag检索出BGM列表
 finalChoice=vedio[vedio["tag1"]==chooseTag]
@@ -61,20 +61,20 @@ for i in range(len(finalChoice)):
 
 dataList.sort()
 bgmResult=[]  #用来按推荐顺序存储bgm
-result={}
+result={"推荐名次":"BGM名称"}
 
 for i in range(len(finalChoice)):
     bgmResult.append(commendDic[dataList[len(finalChoice)-1-i]])
 for i in range(len(finalChoice)):
-    result[dataList[i]]=bgmResult[i]
+    result[i+1]=bgmResult[i]
 resultSeries=pd.Series(result)
 
 
-
-print(bgmList)
-print(dataList)
-print(commendDic)
-print(bgmResult)
+print("以下是系统为您推荐的BGM列表：")
+# print(bgmList)
+# print(dataList)
+# print(commendDic)
+# print(bgmResult)
 print(resultSeries)
 
 
