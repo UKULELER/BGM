@@ -12,19 +12,19 @@
 
 ##### 分析采用了开源软件及python语言，涉及多个音频处理工具，包括：
 
-1. 开源计算机程序FFmpeg，用于记录、转换数字音频、视频，并能将其转化为流。
+1. 开源计算机程序**FFmpeg**，用于记录、转换数字音频、视频，并能将其转化为流。
 
 <img src="BGM音频分析.assets/ffmpeg.jpg" alt="ffmpeg" style="zoom: 67%;" />
 
 一些音频数据初始为mp3格式，通过这一开源程序转为WAV，便于使用python进行特征提取。
 
-2. 音频对比软件sound-similar
+2. 音频对比软件**sound-similar**
 
 ![image-20200727154055626](BGM音频分析.assets/image-20200727154055626.png)
 
 可以对两个WAV格式的音频进行比对，得到一个音频相似度的分析结果。
 
-3. pyAudioAnalysis
+3. **pyAudioAnalysis**
 
 这是一个用于音频分析的python包，具有丰富的功能和强大的处理能力
 
