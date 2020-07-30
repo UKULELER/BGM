@@ -1,0 +1,61 @@
+Object id: 5
+Associated file: C:\Users\user\Desktop\BGM_info\我和你\我和你.mp3
+Object type: Sound
+Object name: 我和你
+Date: Thu Jul 23 13:33:55 2020
+
+Number of channels: 2 (stereo)
+Time domain:
+   Start time: 0 seconds
+   End time: 15.058480725623582 seconds
+   Total duration: 15.058480725623582 seconds
+Time sampling:
+   Number of samples: 664079
+   Sampling period: 2.2675736961451248e-005 seconds
+   Sampling frequency: 44100 Hz
+   First sample centred at: 1.1337868480725624e-005 seconds
+Amplitude:
+   Minimum: -1.00964928 Pascal
+   Maximum: 1.00563645 Pascal
+   Mean: -9.27876251e-005 Pascal
+   Root-mean-square: 0.269509054 Pascal
+Total energy: 1.09377471 Pascal2 sec (energy in air: 0.00273443678 Joule/m2)
+Mean power (intensity) in air: 0.000181587826 Watt/m2 = 82.59 dB
+Standard deviation in channel 1: 0.271914595 Pascal
+Standard deviation in channel 2: 0.267082226 Pascal
+
+
+Object id: 6
+Object type: Pitch
+Object name: 我和你
+Date: Thu Jul 23 13:34:15 2020
+
+Time domain:
+   Start time: 0 seconds
+   End time: 15.058480725623582 seconds
+   Total duration: 15.058480725623582 seconds
+Time sampling:
+   Number of frames: 1502 (1307 voiced)
+   Time step: 0.01 seconds
+   First frame centred at: 0.02424036281179209 seconds
+Ceiling at: 600 Hz
+
+Estimated quantiles:
+   10% = 78.3575936 Hz = 73.2551285 Mel = -4.22226002 semitones above 100 Hz = 2.42495722 ERB
+   16% = 98.3160097 Hz = 90.4529827 Mel = -0.29402078 semitones above 100 Hz = 2.96684697 ERB
+   50% = 114.749947 Hz = 104.220969 Mel = 2.38192178 semitones above 100 Hz = 3.3930853 ERB
+   84% = 223.385105 Hz = 187.472363 Mel = 13.9143959 semitones above 100 Hz = 5.84458847 ERB
+   90% = 301.414861 Hz = 240.339677 Mel = 19.1010066 semitones above 100 Hz = 7.30599442 ERB
+Estimated spreading:
+   84%-median = 108.7 Hz = 83.28 Mel = 11.54 semitones = 2.452 ERB
+   median-16% = 16.44 Hz = 13.77 Mel = 2.677 semitones = 0.4264 ERB
+   90%-10% = 223.1 Hz = 167.1 Mel = 23.33 semitones = 4.883 ERB
+
+Minimum 75.8076949 Hz = 71.0186669 Mel = -4.79500558 semitones above 100 Hz = 2.35368313 ERB
+Maximum 452.309996 Hz = 330.079383 Mel = 26.1277425 semitones above 100 Hz = 9.65069149 ERB
+Range 376.5 Hz = 259.060716 Mel = 30.92 semitones = 7.297 ERB
+Average: 153.527827 Hz = 131.845094 Mel = 5.45644875 semitones above 100 Hz = 4.17770968 ERB
+Standard deviation: 84.9 Hz = 60.83 Mel = 7.728 semitones = 1.743 ERB
+
+Mean absolute slope: 484.7 Hz/s = 361.5 Mel/s = 50.92 semitones/s = 10.56 ERB/s
+Mean absolute slope without octave jumps: 26.27 semitones/s

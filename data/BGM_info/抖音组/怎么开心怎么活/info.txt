@@ -1,0 +1,34 @@
+Object id: 2
+Object type: Pitch
+Object name: 怎么开心怎么活
+Date: Wed Jul 29 00:56:08 2020
+
+Time domain:
+   Start time: 0 seconds
+   End time: 15.633174603174604 seconds
+   Total duration: 15.633174603174604 seconds
+Time sampling:
+   Number of frames: 1560 (424 voiced)
+   Time step: 0.01 seconds
+   First frame centred at: 0.02158730158730215 seconds
+Ceiling at: 600 Hz
+
+Estimated quantiles:
+   10% = 81.1366077 Hz = 75.6822301 Mel = -3.61890132 semitones above 100 Hz = 2.50209327 ERB
+   16% = 85.3483703 Hz = 79.3403517 Mel = -2.74277387 semitones above 100 Hz = 2.61793691 ERB
+   50% = 130.517138 Hz = 117.114101 Mel = 4.61087115 semitones above 100 Hz = 3.78644575 ERB
+   84% = 270.809957 Hz = 220.20533 Mel = 17.2473694 semitones above 100 Hz = 6.7571523 ERB
+   90% = 300.133789 Hz = 239.511502 Mel = 19.027269 semitones above 100 Hz = 7.2835975 ERB
+Estimated spreading:
+   84%-median = 140.5 Hz = 103.2 Mel = 12.65 semitones = 2.974 ERB
+   median-16% = 45.22 Hz = 37.82 Mel = 7.362 semitones = 1.17 ERB
+   90%-10% = 219.3 Hz = 164 Mel = 22.67 semitones = 4.787 ERB
+
+Minimum 74.9923816 Hz = 70.3016501 Mel = -4.98220863 semitones above 100 Hz = 2.3307922 ERB
+Maximum 587.26647 Hz = 399.555503 Mel = 30.6481832 semitones above 100 Hz = 11.3678225 ERB
+Range 512.3 Hz = 329.253852 Mel = 35.63 semitones = 9.037 ERB
+Average: 173.75544 Hz = 145.268154 Mel = 6.75468618 semitones above 100 Hz = 4.54772288 ERB
+Standard deviation: 111.5 Hz = 77.08 Mel = 9.426 semitones = 2.182 ERB
+
+Mean absolute slope: 407.1 Hz/s = 288.7 Mel/s = 37.23 semitones/s = 8.261 ERB/s
+Mean absolute slope without octave jumps: 10.89 semitones/s
