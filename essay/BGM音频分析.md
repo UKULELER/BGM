@@ -18,11 +18,15 @@
 
 一些音频数据初始为mp3格式，通过这一开源程序转为WAV，便于使用python进行特征提取。
 
+
+
 2. 音频对比软件**sound-similar**
 
 ![image-20200727154055626](BGM音频分析.assets/image-20200727154055626.png)
 
 可以对两个WAV格式的音频进行比对，得到一个音频相似度的分析结果。
+
+
 
 3. **pyAudioAnalysis**
 
@@ -32,7 +36,19 @@
 
 与之关联的还有pydub、numpy、hmmlearn等依赖包。
 
-通过这个python包，可以计算Zero Crossing Rate、Entropy of Energy、MFCCs等常见数值，最终以json的形式保存。
+通过这个python包，可以计算Zero Crossing Rate、Entropy of Energy、MFCCs等数值
+
+
+
+4. **praat**
+
+   ![image-20200730153032187](BGM音频分析.assets/image-20200730153032187.png)
+
+   这是一款功能多样的音频分析软件，拥有信息提取、图像绘制等功能。虽然交互性稍有不足，但功能十分强大。
+
+   在使用这个软件时，还可以编写相关的脚本进行音频处理。
+
+   
 
 ##### 除了工具外，还用到一些APP及数据网站：
 
