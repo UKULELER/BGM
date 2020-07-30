@@ -1,0 +1,53 @@
+Outer viewport left: 6 inches
+Outer viewport right: 6.5 inches
+Outer viewport top: 2 inches
+Outer viewport bottom: 2.5 inches
+Font size: 10 points
+Inner viewport left: 6.2 inches
+Inner viewport right: 6.3 inches
+Inner viewport top: 2.2 inches
+Inner viewport bottom: 2.3 inches
+Font: Times
+Line type: Solid
+Line width: 1
+Arrow size: 1
+Speckle size: 1
+Colour: black
+Red: 0
+Green: 0
+Blue: 0
+Axis left: 0
+Axis right: 14.61439909297052
+Axis bottom: -0.9628922939300537
+Axis top: 2.935863494873047
+
+
+Time domain:
+   Start time: 0 seconds
+   End time: 14.61439909297052 seconds
+   Total duration: 14.61439909297052 seconds
+Time sampling:
+   Number of frames: 1458 (1052 voiced)
+   Time step: 0.01 seconds
+   First frame centred at: 0.02219954648526123 seconds
+Ceiling at: 600 Hz
+
+Estimated quantiles:
+   10% = 83.6081105 Hz = 77.8317996 Mel = -3.09942235 semitones above 100 Hz = 2.570225 ERB
+   16% = 92.3384496 Hz = 85.3583866 Mel = -1.37995903 semitones above 100 Hz = 2.80744235 ERB
+   50% = 364.618395 Hz = 279.723755 Mel = 22.3966482 semitones above 100 Hz = 8.35436642 ERB
+   84% = 437.12956 Hz = 321.685661 Mel = 25.5367313 semitones above 100 Hz = 9.43781553 ERB
+   90% = 491.86485 Hz = 351.367078 Mel = 27.5791435 semitones above 100 Hz = 10.1851444 ERB
+Estimated spreading:
+   84%-median = 72.55 Hz = 41.98 Mel = 3.142 semitones = 1.084 ERB
+   median-16% = 272.4 Hz = 194.5 Mel = 23.79 semitones = 5.55 ERB
+   90%-10% = 408.5 Hz = 273.7 Mel = 30.69 semitones = 7.619 ERB
+
+Minimum 75.0395858 Hz = 70.3431888 Mel = -4.97131475 semitones above 100 Hz = 2.33211886 ERB
+Maximum 589.114833 Hz = 400.448675 Mel = 30.7025865 semitones above 100 Hz = 11.3894057 ERB
+Range 514.1 Hz = 330.105486 Mel = 35.67 semitones = 9.057 ERB
+Average: 287.890266 Hz = 221.508251 Mel = 14.8263376 semitones above 100 Hz = 6.65895461 ERB
+Standard deviation: 157.5 Hz = 105.9 Mel = 11.82 semitones = 2.951 ERB
+
+Mean absolute slope: 887.8 Hz/s = 609.9 Mel/s = 71.72 semitones/s = 17.16 ERB/s
+Mean absolute slope without octave jumps: 19.07 semitones/s

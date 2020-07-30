@@ -1,0 +1,34 @@
+Object id: 14
+Object type: Pitch
+Object name: warp_me_in_plastic
+Date: Wed Jul 29 23:04:28 2020
+
+Time domain:
+   Start time: 0 seconds
+   End time: 14.14419501133787 seconds
+   Total duration: 14.14419501133787 seconds
+Time sampling:
+   Number of frames: 1411 (808 voiced)
+   Time step: 0.01 seconds
+   First frame centred at: 0.022097505668934866 seconds
+Ceiling at: 600 Hz
+
+Estimated quantiles:
+   10% = 87.5768111 Hz = 81.2660638 Mel = -2.29655011 semitones above 100 Hz = 2.6787207 ERB
+   16% = 130.515315 Hz = 117.112627 Mel = 4.61062928 semitones above 100 Hz = 3.7864011 ERB
+   50% = 327.60231 Hz = 257.001394 Mel = 20.5433463 semitones above 100 Hz = 7.75344947 ERB
+   84% = 469.78669 Hz = 339.586763 Mel = 26.7840701 semitones above 100 Hz = 9.890335 ERB
+   90% = 520.517075 Hz = 366.288329 Mel = 28.5593459 semitones above 100 Hz = 10.5552718 ERB
+Estimated spreading:
+   84%-median = 142.3 Hz = 82.64 Mel = 6.245 semitones = 2.138 ERB
+   median-16% = 197.2 Hz = 140 Mel = 15.94 semitones = 3.97 ERB
+   90%-10% = 433.2 Hz = 285.2 Mel = 30.88 semitones = 7.881 ERB
+
+Minimum 75.0689591 Hz = 70.369035 Mel = -4.9645394 semitones above 100 Hz = 2.33294431 ERB
+Maximum 599.983804 Hz = 405.671673 Mel = 31.0190827 semitones above 100 Hz = 11.5153805 ERB
+Range 524.9 Hz = 335.302638 Mel = 35.98 semitones = 9.182 ERB
+Average: 301.400447 Hz = 231.707318 Mel = 16.3926272 semitones above 100 Hz = 6.96153549 ERB
+Standard deviation: 149.8 Hz = 97.88 Mel = 10.41 semitones = 2.696 ERB
+
+Mean absolute slope: 1093 Hz/s = 701.3 Mel/s = 73.73 semitones/s = 19.2 ERB/s
+Mean absolute slope without octave jumps: 23.85 semitones/s

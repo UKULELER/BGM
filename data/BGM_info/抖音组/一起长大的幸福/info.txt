@@ -1,0 +1,34 @@
+Object id: 10
+Object type: Pitch
+Object name: 一起长大的幸福
+Date: Wed Jul 29 22:35:28 2020
+
+Time domain:
+   Start time: 0 seconds
+   End time: 15.058480725623582 seconds
+   Total duration: 15.058480725623582 seconds
+Time sampling:
+   Number of frames: 1502 (918 voiced)
+   Time step: 0.01 seconds
+   First frame centred at: 0.02424036281179209 seconds
+Ceiling at: 600 Hz
+
+Estimated quantiles:
+   10% = 79.6054469 Hz = 74.3462886 Mel = -3.94873135 semitones above 100 Hz = 2.45966291 ERB
+   16% = 92.662134 Hz = 85.6354705 Mel = -1.31937824 semitones above 100 Hz = 2.81613593 ERB
+   50% = 122.123533 Hz = 110.28813 Mel = 3.46009472 semitones above 100 Hz = 3.57887174 ERB
+   84% = 427.704771 Hz = 316.409212 Mel = 25.1593836 semitones above 100 Hz = 9.30336054 ERB
+   90% = 439.655197 Hz = 323.091075 Mel = 25.6364703 semitones above 100 Hz = 9.47354502 ERB
+Estimated spreading:
+   84%-median = 305.7 Hz = 206.2 Mel = 21.71 semitones = 5.728 ERB
+   median-16% = 29.48 Hz = 24.67 Mel = 4.782 semitones = 0.7632 ERB
+   90%-10% = 360.2 Hz = 248.9 Mel = 29.6 semitones = 7.018 ERB
+
+Minimum 74.9570157 Hz = 70.2705268 Mel = -4.99037496 semitones above 100 Hz = 2.32979813 ERB
+Maximum 501.980534 Hz = 356.681386 Mel = 27.931577 semitones above 100 Hz = 10.3173836 ERB
+Range 427 Hz = 286.410859 Mel = 32.92 semitones = 7.988 ERB
+Average: 200.02888 Hz = 161.704974 Mel = 8.16677722 semitones above 100 Hz = 4.98622648 ERB
+Standard deviation: 141.1 Hz = 96.77 Mel = 11.11 semitones = 2.717 ERB
+
+Mean absolute slope: 763.6 Hz/s = 535.5 Mel/s = 67.47 semitones/s = 15.23 ERB/s
+Mean absolute slope without octave jumps: 22.75 semitones/s
